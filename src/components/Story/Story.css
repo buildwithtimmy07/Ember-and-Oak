@@ -1,0 +1,60 @@
+.story {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 80px;
+  align-items: center;
+  background: #211814;
+}
+.story-image img {
+  width: 100%;
+  height: 700px;
+  object-fit: cover;
+  border-radius: 18px;
+  box-shadow: 0 25px 60px rgba(0, 0, 0, 0.4);
+  transition: 0.5s;
+}
+.story-image img:hover {
+  transform: scale(1.03);
+}
+.story-tag {
+  color: #c49a6c;
+  letter-spacing: 4px;
+  margin-bottom: 18px;
+}
+.story-content h2 {
+  font-size: 4rem;
+  line-height: 1.1;
+  margin-bottom: 30px;
+}
+blockquote {
+  font-size: 1.5rem;
+  font-family: "Cormorant Garamond", serif;
+  font-style: italic;
+  color: #c49a6c;
+  line-height: 1.6;
+  margin-bottom: 35px;
+  border-left: 3px solid #c49a6c;
+  padding-left: 25px;
+}
+.story-text {
+  line-height: 2;
+  color: rgba(246, 241, 233, 0.82);
+  margin-bottom: 40px;
+}
+.signature {
+  font-size: 1.2rem;
+  letter-spacing: 2px;
+  color: #c49a6c;
+}
+@media (max-width: 992px) {
+  .story {
+    grid-template-columns: 1fr;
+  }
+  .story-content {
+    text-align: center;
+  }
+  blockquote {
+    border: none;
+    padding: 0;
+  }
+}

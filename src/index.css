@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background: #211814;
+  color: #f6f1e9;
+  font-family: "Manrope", sans-serif;
+  overflow-x: hidden;
+}
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 600;
+}
+section {
+  padding: 120px 8%;
+  scroll-margin-top: 90px;
+}
+img {
+  max-width: 100%;
+  display: block;
+}
+button {
+  font-family: inherit;
+  cursor: pointer;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+ul {
+  list-style: none;
+}
