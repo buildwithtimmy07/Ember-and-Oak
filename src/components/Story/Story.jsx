@@ -1,5 +1,5 @@
 import "./Story.css";
-import story from "../../assets/images/story.jpeg";
+import story from "../assets/images/story.jpeg";
 
 function Story() {
   return (

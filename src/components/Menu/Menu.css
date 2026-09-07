@@ -1,121 +1,78 @@
 .menu {
   background: #2a1e1a;
 }
-
 .section-title {
   text-align: center;
-
   margin-bottom: 80px;
 }
-
 .section-title p {
   color: #c49a6c;
-
   letter-spacing: 4px;
-
   margin-bottom: 15px;
 }
-
 .section-title h2 {
   font-size: 4rem;
-
   line-height: 1.1;
 }
-
 .menu-grid {
   display: grid;
-
   grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
-
   gap: 35px;
 }
-
 .menu-card {
   background: #33241e;
-
   overflow: hidden;
-
   border-radius: 14px;
-
   transition: 0.4s;
-
   border: 1px solid rgba(255, 255, 255, 0.05);
 }
-
 .menu-card:hover {
   transform: translateY(-12px);
-
   box-shadow: 0 25px 45px rgba(0, 0, 0, 0.35);
 }
-
 .menu-image {
   overflow: hidden;
-
   height: 270px;
 }
-
 .menu-image img {
   width: 100%;
-
   height: 100%;
-
   object-fit: cover;
-
   transition: 0.6s;
 }
-
 .menu-card:hover img {
   transform: scale(1.08);
 }
-
 .menu-info {
   padding: 28px;
 }
-
 .menu-top {
   display: flex;
-
   justify-content: space-between;
-
   align-items: center;
-
   margin-bottom: 18px;
 }
-
 .menu-top h3 {
   font-size: 2rem;
 }
-
 .menu-top span {
   color: #c49a6c;
-
   font-weight: 700;
 }
-
 .menu-info p {
   line-height: 1.8;
-
   margin-bottom: 25px;
-
   color: rgba(246, 241, 233, 0.75);
 }
-
 .menu-info button {
   padding: 14px 28px;
-
   background: #c49a6c;
-
   border: none;
-
   border-radius: 8px;
-
   font-weight: 700;
-
   transition: 0.35s;
 }
-
 .menu-info button:hover {
   transform: translateY(-3px);
-
   background: #d8ae7a;
 }
